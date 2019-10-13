@@ -1,7 +1,18 @@
 # Tracking-Test-Cases
-This repository will contain my project which helps in tracking test cases.
+Tracking test cases is a work in progress tool that is being built
+so that one can easily manage unit test cases. The idea is to generate a JSON
+and then parse it to convert it to Excel. The JSON structure is
 
-It's a work in progress
+```
+{
+    "filename": {
+        "pathToFile": String,
+        "availableScenarios": [String],
+        "tagStatus": String,
+        "active": Boolean
+    }
+}
+```
 
 # TODO
 1. Read data from files. 
